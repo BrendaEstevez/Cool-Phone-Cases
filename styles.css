@@ -1,0 +1,48 @@
+.picture {
+    /*
+    Lay the picture containers out one after the other. (To see why
+    this line is important, try changing it to 'block' or 'inline'.)
+    */
+    display: inline-block;
+
+    /* add a little space between each picture and the next */
+    margin: 10px;
+}
+
+.counter {
+    border: #800020 double 10px;
+    color: purple;
+    height: 200px;
+    width: 800px;
+    margin-left: 2px;
+
+
+}
+
+button {
+    color: #4b5320;
+    background-color: #99CC99;
+}
+
+.gallery img {
+    /*
+    The original images are all different sizes but we need
+    them to be consistent for the gallery layout to look good.
+    */
+    height: 215px;
+
+    /* add an outline around each picture */
+    border: 9px dotted purple;
+}
+
+.gallery p {
+    text-align: center;
+    margin-top: 0;
+}
+
+body {
+    text-align: center;
+    background: url(https://www.wowpatterns.com/assets/files/resource_images/pink-white-checkered-background-pattern.jpg);
+    color: purple;
+    text-decoration: underline;
+}
